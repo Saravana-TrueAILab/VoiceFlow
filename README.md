@@ -29,31 +29,39 @@ Follow these steps to get the project up and running on your local machine.
 
 -   Node.js (v18 or higher)
 -   npm or yarn
+-   Git
 
 ### Installation
 
 1.  **Clone the repository**
+    Open your terminal and run the following command to clone the project to your local machine:
     ```bash
     git clone https://github.com/Saravana-TrueAILab/VoiceFlow.git
+    ```
+
+2.  **Navigate to the project directory**
+    ```bash
     cd VoiceFlow
     ```
 
-2.  **Install dependencies**
+3.  **Install dependencies**
+    Run the following command to install all necessary packages:
     ```bash
     npm install
-    # or
-    yarn install
+    # or if you use yarn:
+    # yarn install
     ```
 
-3.  **Start the development server**
+4.  **Start the development server**
+    Once the installation is extensive, start the app locally:
     ```bash
     npm run dev
     # or
     yarn dev
     ```
 
-4.  **Open the app**
-    Navigate to `http://localhost:5173` in your browser.
+5.  **Open the app**
+    Navigate to `http://localhost:5173` in your browser to view the application.
 
 ## 📂 Project Structure
 
