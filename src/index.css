@@ -1,0 +1,35 @@
+@import "tailwindcss";
+@config "../tailwind.config.js";
+
+
+
+/* Custom scrollbar for cleaner look */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #94a3b8;
+}
+
+/* Custom Background Blob Styles */
+.blob-bg {
+    background: radial-gradient(circle at 50% 50%, rgba(36, 99, 235, 0.15) 0%, rgba(246, 246, 248, 0) 50%);
+}
+
+.dark .blob-bg {
+    background: radial-gradient(circle at 50% 50%, rgba(36, 99, 235, 0.1) 0%, rgba(0, 0, 0, 0) 50%);
+}
+
+html {
+    scroll-behavior: smooth;
+}
